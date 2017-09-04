@@ -1,0 +1,17 @@
+{
+    "event": "vibration-data",
+    "url": "https://vibration-watcher-e6dd7.firebaseio.com/vibration-data/{{n}}.json",
+    "requestType": "POST",
+    "query": {
+        "auth":"tHHFSl6G0sox5yE2NrtqEnpZT5cajfOmm4IEMbpZ"
+    },
+    "json": {
+        "x": "{{x}}",
+        "y": "{{y}}",
+        "z": "{{z}}",
+        "total": "{{total}}",
+        "ts": "{{PARTICLE_PUBLISHED_AT}}"
+    },
+    "mydevices": true,
+    "noDefaults": true
+}

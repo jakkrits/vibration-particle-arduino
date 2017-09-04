@@ -1,0 +1,1 @@
+For Google Spreadsheet API go to https://developers.google.com/apps-script/reference/spreadsheet/
